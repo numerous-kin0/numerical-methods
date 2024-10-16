@@ -5,6 +5,7 @@
 double fy(double x, double y, double z) {
     return (4*x);
 }
+//partial differentiation of f with respect to y
 
 double f(double x, double y, double z) {
     return (((-1)*pow(x, 2)*fy(x, y, z)) + (4*x*y) + (2*pow(x, 3)) + (6*pow(x, 2)) - 2);
@@ -13,6 +14,7 @@ double f(double x, double y, double z) {
 double fz(double x, double y, double z) {
     return (pow(x, 2));
 }
+//partial differentiation of f with respect to z
 
 int main() {
     double a = 0, b = 1, alpha = 0, beta = 2;
